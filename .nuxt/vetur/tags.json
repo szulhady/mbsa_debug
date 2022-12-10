@@ -1,0 +1,89 @@
+{
+  "BarChartHorizontal": {
+    "description": "Auto imported from components/BarChartHorizontal.vue"
+  },
+  "BarChartHorizontal2": {
+    "description": "Auto imported from components/BarChartHorizontal2.vue"
+  },
+  "BarChartVertival": {
+    "description": "Auto imported from components/BarChartVertival.vue"
+  },
+  "Button": {
+    "description": "Auto imported from components/Button.vue"
+  },
+  "ClassButton": {
+    "description": "Auto imported from components/ClassButton.vue"
+  },
+  "ClassList": {
+    "description": "Auto imported from components/ClassList.vue"
+  },
+  "DetailBuilding": {
+    "description": "Auto imported from components/DetailBuilding.vue"
+  },
+  "DetailCard": {
+    "description": "Auto imported from components/DetailCard.vue"
+  },
+  "DetailCards": {
+    "description": "Auto imported from components/DetailCards.vue"
+  },
+  "Frame": {
+    "description": "Auto imported from components/Frame.vue"
+  },
+  "Frame2": {
+    "description": "Auto imported from components/Frame2.vue"
+  },
+  "Frame3": {
+    "description": "Auto imported from components/Frame3.vue"
+  },
+  "Frame4": {
+    "description": "Auto imported from components/Frame4.vue"
+  },
+  "LineGraph": {
+    "description": "Auto imported from components/LineGraph.vue"
+  },
+  "Logo": {
+    "description": "Auto imported from components/Logo.vue"
+  },
+  "Maps": {
+    "description": "Auto imported from components/Maps.vue"
+  },
+  "Maps2": {
+    "description": "Auto imported from components/Maps2.vue"
+  },
+  "MbsaEnergyConsumption": {
+    "description": "Auto imported from components/MbsaEnergyConsumption.vue"
+  },
+  "MultipleLineChart": {
+    "description": "Auto imported from components/MultipleLineChart.vue"
+  },
+  "MultipleLineChart2": {
+    "description": "Auto imported from components/MultipleLineChart2.vue"
+  },
+  "MultipleLineChart3": {
+    "description": "Auto imported from components/MultipleLineChart3.vue"
+  },
+  "Notification": {
+    "description": "Auto imported from components/Notification.vue"
+  },
+  "SingleLineChart": {
+    "description": "Auto imported from components/SingleLineChart.vue"
+  },
+  "SingleLineChart2": {
+    "description": "Auto imported from components/SingleLineChart2.vue"
+  },
+  "VuetifyLogo": {
+    "description": "Auto imported from components/VuetifyLogo.vue"
+  },
+  "AdminBuildingTable": {
+    "description": "Auto imported from components/Admin/BuildingTable.vue"
+  },
+  "AdminUserTable": {
+    "description": "Auto imported from components/Admin/UserTable.vue"
+  },
+  "LoginForm": {
+    "description": "Auto imported from components/Login/Form.vue"
+  },
+  "RegisterForm2": {
+    "description": "Auto imported from components/Register/Form2.vue"
+  }
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "admin",
+    "path": "/admin",
+    "component": "C:\\\\Users\\\\Sea-Ic\\\\Desktop\\\\PROJECTS\\\\MBSA\\\\Front\\\\mbsa latest V2.0\\\\pages\\\\admin.vue",
+    "chunkName": "pages/admin"
+  },
+  {
+    "name": "building",
+    "path": "/building",
+    "component": "C:\\\\Users\\\\Sea-Ic\\\\Desktop\\\\PROJECTS\\\\MBSA\\\\Front\\\\mbsa latest V2.0\\\\pages\\\\building.vue",
+    "chunkName": "pages/building"
+  },
+  {
+    "name": "details",
+    "path": "/details",
+    "component": "C:\\\\Users\\\\Sea-Ic\\\\Desktop\\\\PROJECTS\\\\MBSA\\\\Front\\\\mbsa latest V2.0\\\\pages\\\\details.vue",
+    "chunkName": "pages/details"
+  },
+  {
+    "name": "landing",
+    "path": "/landing",
+    "component": "C:\\\\Users\\\\Sea-Ic\\\\Desktop\\\\PROJECTS\\\\MBSA\\\\Front\\\\mbsa latest V2.0\\\\pages\\\\landing.vue",
+    "chunkName": "pages/landing"
+  },
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "C:\\\\Users\\\\Sea-Ic\\\\Desktop\\\\PROJECTS\\\\MBSA\\\\Front\\\\mbsa latest V2.0\\\\pages\\\\login.vue",
+    "chunkName": "pages/login"
+  },
+  {
+    "name": "main",
+    "path": "/main",
+    "component": "C:\\\\Users\\\\Sea-Ic\\\\Desktop\\\\PROJECTS\\\\MBSA\\\\Front\\\\mbsa latest V2.0\\\\pages\\\\main.js",
+    "chunkName": "pages/main"
+  },
+  {
+    "name": "register",
+    "path": "/register",
+    "component": "C:\\\\Users\\\\Sea-Ic\\\\Desktop\\\\PROJECTS\\\\MBSA\\\\Front\\\\mbsa latest V2.0\\\\pages\\\\register.vue",
+    "chunkName": "pages/register"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\Sea-Ic\\\\Desktop\\\\PROJECTS\\\\MBSA\\\\Front\\\\mbsa latest V2.0\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
+  }
+]

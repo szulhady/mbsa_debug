@@ -1,0 +1,5 @@
+@font-face {
+  font-family: "Jersey";
+  src: local("Jersey"),
+   url(~/assets/Jersey.ttf) format("truetype");
+}
