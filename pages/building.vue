@@ -572,7 +572,7 @@ export default {
     },
     getYear: function (id) {
       this.$axios
-        .$get(`https://debug2.qwazx.one:5000/api/data/building/year`, {
+        .$get(`https://debug2.qwazx.one/api/data/building/year`, {
           params: {
             building_id: id,
           },
@@ -600,7 +600,7 @@ export default {
     },
     getDetails: function (id) {
       this.$axios
-        .$get(`https://debug2.qwazx.one:5000/api/data/building/details`, {
+        .$get(`https://debug2.qwazx.one/api/data/building/details`, {
           params: {
             building_id: id,
           },
@@ -630,21 +630,17 @@ export default {
     },
     updateDetail: function () {
       this.$axios
-        .$post(
-          `https://debug2.qwazx.one:5000/api/data/building/details`,
-          null,
-          {
-            params: {
-              building_id: this.loggedInUser.building_id,
-              // nooffloor: this.nooffloor,
-              netfloorarea: this.netfloorarea,
-              noofoccupants: this.noofoccupants,
-              carbonemissionintensity: this.carbonemissionintensity,
-            },
-          }
-        )
+        .$post(`https://debug2.qwazx.one/api/data/building/details`, null, {
+          params: {
+            building_id: this.loggedInUser.building_id,
+            // nooffloor: this.nooffloor,
+            netfloorarea: this.netfloorarea,
+            noofoccupants: this.noofoccupants,
+            carbonemissionintensity: this.carbonemissionintensity,
+          },
+        })
         // .$get("http://104.248.158.194/api/total/latest", {})
-        // .$get("https://debug2.qwazx.one:5000/api/total/latest", {})
+        // .$get("https://debug2.qwazx.one/api/total/latest", {})
         .then((response) => {
           console.log(response);
           // this.getDetails(this.loggedInUser.userId);
@@ -657,14 +653,14 @@ export default {
     },
     updateOwner: function () {
       this.$axios
-        .$put(`https://debug2.qwazx.one:5000/api/data/building/owner`, {
+        .$put(`https://debug2.qwazx.one/api/data/building/owner`, {
           params: {
             id: this.loggedInUser.userId,
             owner: this.owner,
           },
         })
         // .$get("http://104.248.158.194/api/total/latest", {})
-        // .$get("https://debug2.qwazx.one:5000/api/total/latest", {})
+        // .$get("https://debug2.qwazx.one/api/total/latest", {})
         .then((response) => {
           console.log(response);
           this.updateDetail();
@@ -678,7 +674,7 @@ export default {
     },
     getDataYearly: function (id, year) {
       this.$axios
-        .$get(`https://debug2.qwazx.one:5000/api/data/yearly/building`, {
+        .$get(`https://debug2.qwazx.one/api/data/yearly/building`, {
           params: {
             building_id: id,
             year: year,
@@ -709,7 +705,7 @@ export default {
     },
     updateData: function () {
       this.$axios
-        .$post(`https://debug2.qwazx.one:5000/api/data/building/data`, null, {
+        .$post(`https://debug2.qwazx.one/api/data/building/data`, null, {
           params: {
             building_id: this.loggedInUser.userId,
             floor: this.select,
@@ -726,7 +722,7 @@ export default {
           },
         })
         // .$get("http://104.248.158.194/api/total/latest", {})
-        // .$get("https://debug2.qwazx.one:5000/api/total/latest", {})
+        // .$get("https://debug2.qwazx.one/api/total/latest", {})
         .then((response) => {
           console.log(response);
           // this.updateDetail();
@@ -774,7 +770,7 @@ export default {
     },
     getEnergy: function (id) {
       this.$axios
-        .$get(`https://debug2.qwazx.one:5000/api/data/building/energy`, {
+        .$get(`https://debug2.qwazx.one/api/data/building/energy`, {
           params: {
             building_id: id,
           },
@@ -814,7 +810,7 @@ export default {
     },
     getEnergy2: function (id) {
       this.$axios
-        .$get(`https://debug2.qwazx.one:5000/api/data/building/energy`, {
+        .$get(`https://debug2.qwazx.one/api/data/building/energy`, {
           params: {
             building_id: id,
           },
@@ -845,7 +841,7 @@ export default {
     },
     getEnergyMonth: function (id, year) {
       this.$axios
-        .$get(`https://debug2.qwazx.one:5000/api/data/building/energy/month`, {
+        .$get(`https://debug2.qwazx.one/api/data/building/energy/month`, {
           params: {
             building_id: id,
             year,
@@ -880,7 +876,7 @@ export default {
     },
     getEnergyAll: function (id, category, year) {
       this.$axios
-        .$get(`https://debug2.qwazx.one:5000/api/data/building/energy/all`, {
+        .$get(`https://debug2.qwazx.one/api/data/building/energy/all`, {
           params: {
             building_id: id,
             category: category,
@@ -905,7 +901,7 @@ export default {
     },
     getBei: function (id) {
       this.$axios
-        .$get(`https://debug2.qwazx.one:5000/api/data/building/bei`, {
+        .$get(`https://debug2.qwazx.one/api/data/building/bei`, {
           params: {
             building_id: id,
           },

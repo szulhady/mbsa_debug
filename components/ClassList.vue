@@ -99,7 +99,7 @@ export default {
     },
     getCategory: function () {
       this.$axios
-        .$get("https://debug2.qwazx.one:5000/api/data/category", {
+        .$get("https://debug2.qwazx.one/api/data/category", {
           // params: {
           //   id: id,
           // },
@@ -128,7 +128,7 @@ export default {
 
     getBuildingData: function (id) {
       this.$axios
-        .$get("https://debug2.qwazx.one:5000/api/data/building", {
+        .$get("https://debug2.qwazx.one/api/data/building", {
           params: {
             id: id,
           },

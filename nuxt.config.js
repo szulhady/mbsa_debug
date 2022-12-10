@@ -104,16 +104,16 @@ export default {
         },
         endpoints: {
           login: {
-            // url: "https://debug2.qwazx.one:5000/api/auth/login",
+            // url: "https://debug2.qwazx.one/api/auth/login",
             // url: "http://178.128.29.241/api/auth/login",
-            url: "https://debug2.qwazx.one:5000/api/auth/login",
+            url: "https://debug2.qwazx.one/api/auth/login",
             // url: "http://104.248.158.194/api/auth/login",
             method: "post",
           },
           logout: false,
           user: {
-            // url: "https://debug2.qwazx.one:5000/api/auth/me",
-            url: "https://debug2.qwazx.one:5000/api/auth/me",
+            // url: "https://debug2.qwazx.one/api/auth/me",
+            url: "https://debug2.qwazx.one/api/auth/me",
             // url: "http://104.248.158.194/api/auth/me",
             method: "GET",
             // VERY IMPORTANT

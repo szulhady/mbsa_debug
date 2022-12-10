@@ -6823,12 +6823,12 @@ function searchTableItems(items, search, headersWithCustomFilters, headersWithou
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Admin/UserTable.vue?vue&type=template&id=685b2dd0&
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Admin/UserTable.vue?vue&type=template&id=32d9534f&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('v-card-subtitle',{staticClass:"color no-padding"},[_vm._v("USER REGISTERED")]),_vm._ssrNode(" "),_c('v-card',{staticClass:"elevation-12 card-border card-color"},[_c('v-data-table',{attrs:{"single-select":_vm.singleSelect,"headers":_vm.headers,"items":_vm.data,"items-per-page":3,"search":_vm.search,"item-key":"user_id","show-select":"","custom-filter":_vm.filter},on:{"click:row":_vm.handleClick},scopedSlots:_vm._u([{key:"top",fn:function(){return [_c('v-text-field',{staticClass:"mx-4",attrs:{"label":"Search for user"},model:{value:(_vm.search),callback:function ($$v) {_vm.search=$$v},expression:"search"}})]},proxy:true},(_vm.selected.length > 0)?{key:"footer",fn:function(){return [_c('v-btn',{staticClass:"error logout-btn mt-2 ml-5",on:{"click":function($event){_vm.box = true}}},[_vm._v("Delete")])]},proxy:true}:null],null,true),model:{value:(_vm.selected),callback:function ($$v) {_vm.selected=$$v},expression:"selected"}})],1),_vm._ssrNode(" "),_c('v-dialog',{attrs:{"persistent":"","max-width":"290"},model:{value:(_vm.box),callback:function ($$v) {_vm.box=$$v},expression:"box"}},[_c('v-card',[_c('v-card-title',[_vm._v(" Action ")]),_vm._v(" "),_c('hr',{staticClass:"hr"}),_vm._v(" "),_c('v-card-subtitle',[_vm._v("Are you sure you want to delete the user?")]),_vm._v(" "),_c('v-card-actions',[_c('v-spacer'),_vm._v(" "),_c('div',{staticClass:"btn-div"},[_c('v-btn',{staticClass:"error logout-btn",on:{"click":_vm.deleteUser}},[_vm._v("Delete")]),_vm._v(" "),_c('v-btn',{staticClass:"success logout-btn",on:{"click":_vm.cancel}},[_vm._v("Cancel")])],1)],1)],1)],1),_vm._ssrNode(" "),_c('v-dialog',{attrs:{"persistent":"","max-width":"290"},model:{value:(_vm.editBox),callback:function ($$v) {_vm.editBox=$$v},expression:"editBox"}},[(_vm.editBox)?_c('v-card',{attrs:{"id":"logout"}},[_c('v-card-title',[_vm._v(" Action ")]),_vm._v(" "),_c('hr',{staticClass:"hr"}),_vm._v(" "),_c('v-form',{staticStyle:{"padding-left":"2vw","padding-right":"2vw"},on:{"submit":function($event){$event.preventDefault();}}},[_c('div',{staticClass:"field"},[_c('div',{staticClass:"control"},[_c('v-text-field',{staticClass:"input",attrs:{"type":"text","label":"Building ID"},model:{value:(_vm.buildingId),callback:function ($$v) {_vm.buildingId=$$v},expression:"buildingId"}})],1)])]),_vm._v(" "),_c('v-card-actions',[_c('v-spacer'),_vm._v(" "),_c('div',{staticClass:"btn-div"},[_c('v-btn',{staticClass:"error logout-btn",on:{"click":_vm.updateBuildingId}},[_vm._v("Edit")]),_vm._v(" "),_c('v-btn',{staticClass:"success logout-btn",on:{"click":_vm.cancel}},[_vm._v("Cancel")])],1)],1)],1):_vm._e()],1)],2)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./components/Admin/UserTable.vue?vue&type=template&id=685b2dd0&
+// CONCATENATED MODULE: ./components/Admin/UserTable.vue?vue&type=template&id=32d9534f&
 
 // EXTERNAL MODULE: external "vuex"
 var external_vuex_ = __webpack_require__(17);
@@ -6978,7 +6978,7 @@ var external_vuex_ = __webpack_require__(17);
     },
 
     getAllUser: function () {
-      this.$axios.$get("https://debug2.qwazx.one:5000/api/data/admin/user").then(response => {
+      this.$axios.$get("https://debug2.qwazx.one/api/data/admin/user").then(response => {
         console.log(response);
         this.data = response; // this.setBuildingData(response);
       }).catch(error => {
@@ -6987,7 +6987,7 @@ var external_vuex_ = __webpack_require__(17);
     },
 
     deleteBuilding() {
-      let api = "https://debug2.qwazx.one:5000/api/data/admin/building";
+      let api = "https://debug2.qwazx.one/api/data/admin/building";
       this.$axios.$delete(api, {
         data: {
           id: this.selected
@@ -7003,13 +7003,13 @@ var external_vuex_ = __webpack_require__(17);
     },
 
     updateBuildingId: function () {
-      this.$axios.$put(`https://debug2.qwazx.one:5000/api/data/admin/user`, null, {
+      this.$axios.$put(`https://debug2.qwazx.one/api/data/admin/user`, null, {
         params: {
           user_id: this.user_id,
           building_id: this.buildingId
         }
       }) // .$get("http://104.248.158.194/api/total/latest", {})
-      // .$get("https://debug2.qwazx.one:5000/api/total/latest", {})
+      // .$get("https://debug2.qwazx.one/api/total/latest", {})
       .then(response => {
         console.log(response);
         this.editBox = false;
@@ -7022,7 +7022,7 @@ var external_vuex_ = __webpack_require__(17);
     },
 
     deleteUser() {
-      let api = "https://debug2.qwazx.one:5000/api/data/admin/user";
+      let api = "https://debug2.qwazx.one/api/data/admin/user";
       this.$axios.$delete(api, {
         data: {
           user_id: this.selected

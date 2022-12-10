@@ -191,7 +191,7 @@ export default {
     },
     getAllBuilding: function () {
       this.$axios
-        .$get("https://debug2.qwazx.one:5000/api/data/admin/building")
+        .$get("https://debug2.qwazx.one/api/data/admin/building")
         .then((response) => {
           // console.log(response);
           this.setBuildingData(response);
@@ -203,7 +203,7 @@ export default {
     addBuilding: function () {
       console.log(this.buildingName);
       this.$axios
-        .$post(`https://debug2.qwazx.one:5000/api/data/admin/building`, null, {
+        .$post(`https://debug2.qwazx.one/api/data/admin/building`, null, {
           params: {
             id: this.buildingId,
             name: this.buildingName,

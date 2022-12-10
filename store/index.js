@@ -1,6 +1,6 @@
 export const state = () => ({
   activeUser: 0,
-  url: "https://debug2.qwazx.one:5000",
+  url: "https://debug2.qwazx.one",
   locations: [
     {
       data: "",

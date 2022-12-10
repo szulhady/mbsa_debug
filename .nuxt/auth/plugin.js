@@ -14,7 +14,7 @@ export default function (ctx, inject) {
 
   // Register strategies
   // local
-  $auth.registerStrategy('local', new scheme_3e2123be($auth, {"endpoints":{"login":{"url":"https://debug2.qwazx.one:5000/api/auth/login","method":"post","propertyName":"token"},"logout":false,"user":{"url":"https://debug2.qwazx.one:5000/api/auth/me","method":"GET","propertyName":false}},"scheme":"local","token":{"maxAge":10000,"type":"Bearer"},"tokenType":"Bearer","localStorage":false,"_name":"local"}))
+  $auth.registerStrategy('local', new scheme_3e2123be($auth, {"endpoints":{"login":{"url":"https://debug2.qwazx.one/api/auth/login","method":"post","propertyName":"token"},"logout":false,"user":{"url":"https://debug2.qwazx.one/api/auth/me","method":"GET","propertyName":false}},"scheme":"local","token":{"maxAge":10000,"type":"Bearer"},"tokenType":"Bearer","localStorage":false,"_name":"local"}))
 
   // Inject it to nuxt context as $auth
   inject('auth', $auth)

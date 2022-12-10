@@ -3,48 +3,56 @@
     "name": "admin",
     "path": "/admin",
     "component": "C:\\\\Users\\\\Sea-Ic\\\\Desktop\\\\PROJECTS\\\\MBSA\\\\Front\\\\mbsa latest V2.0\\\\pages\\\\admin.vue",
-    "chunkName": "pages/admin"
+    "chunkName": "pages/admin",
+    "_name": "_4dc8c740"
   },
   {
     "name": "building",
     "path": "/building",
     "component": "C:\\\\Users\\\\Sea-Ic\\\\Desktop\\\\PROJECTS\\\\MBSA\\\\Front\\\\mbsa latest V2.0\\\\pages\\\\building.vue",
-    "chunkName": "pages/building"
+    "chunkName": "pages/building",
+    "_name": "_0337929a"
   },
   {
     "name": "details",
     "path": "/details",
     "component": "C:\\\\Users\\\\Sea-Ic\\\\Desktop\\\\PROJECTS\\\\MBSA\\\\Front\\\\mbsa latest V2.0\\\\pages\\\\details.vue",
-    "chunkName": "pages/details"
+    "chunkName": "pages/details",
+    "_name": "_391380da"
   },
   {
     "name": "landing",
     "path": "/landing",
     "component": "C:\\\\Users\\\\Sea-Ic\\\\Desktop\\\\PROJECTS\\\\MBSA\\\\Front\\\\mbsa latest V2.0\\\\pages\\\\landing.vue",
-    "chunkName": "pages/landing"
+    "chunkName": "pages/landing",
+    "_name": "_7a3f94e8"
   },
   {
     "name": "login",
     "path": "/login",
     "component": "C:\\\\Users\\\\Sea-Ic\\\\Desktop\\\\PROJECTS\\\\MBSA\\\\Front\\\\mbsa latest V2.0\\\\pages\\\\login.vue",
-    "chunkName": "pages/login"
+    "chunkName": "pages/login",
+    "_name": "_7153eb7a"
   },
   {
     "name": "main",
     "path": "/main",
     "component": "C:\\\\Users\\\\Sea-Ic\\\\Desktop\\\\PROJECTS\\\\MBSA\\\\Front\\\\mbsa latest V2.0\\\\pages\\\\main.js",
-    "chunkName": "pages/main"
+    "chunkName": "pages/main",
+    "_name": "_0cb9fdd7"
   },
   {
     "name": "register",
     "path": "/register",
     "component": "C:\\\\Users\\\\Sea-Ic\\\\Desktop\\\\PROJECTS\\\\MBSA\\\\Front\\\\mbsa latest V2.0\\\\pages\\\\register.vue",
-    "chunkName": "pages/register"
+    "chunkName": "pages/register",
+    "_name": "_59ae79bc"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\Sea-Ic\\\\Desktop\\\\PROJECTS\\\\MBSA\\\\Front\\\\mbsa latest V2.0\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_b0a76f3a"
   }
 ]

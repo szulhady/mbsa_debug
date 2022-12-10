@@ -150,7 +150,7 @@ export default {
   methods: {
     getEnergy: function (id) {
       this.$axios
-        .$get(`https://debug2.qwazx.one:5000/api/data/building/energy`, {
+        .$get(`https://debug2.qwazx.one/api/data/building/energy`, {
           params: {
             building_id: id,
           },
@@ -188,7 +188,7 @@ export default {
     },
     getBei: function (id) {
       this.$axios
-        .$get(`https://debug2.qwazx.one:5000/api/data/building/bei`, {
+        .$get(`https://debug2.qwazx.one/api/data/building/bei`, {
           params: {
             building_id: id,
           },

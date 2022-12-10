@@ -4747,7 +4747,7 @@ if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
 var add = __webpack_require__(5).default
 module.exports.__inject__ = function (context) {
-  add("290601d6", content, true, context)
+  add("f6ac8fb8", content, true, context)
 };
 
 /***/ }),
@@ -5989,9 +5989,9 @@ module.exports = ___CSS_LOADER_EXPORT___;
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_BarChartHorizontal2_vue_vue_type_style_index_0_id_0962f332_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(276);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_BarChartHorizontal2_vue_vue_type_style_index_0_id_0962f332_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_BarChartHorizontal2_vue_vue_type_style_index_0_id_0962f332_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_BarChartHorizontal2_vue_vue_type_style_index_0_id_0962f332_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_BarChartHorizontal2_vue_vue_type_style_index_0_id_0962f332_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_BarChartHorizontal2_vue_vue_type_style_index_0_id_0f2a9f2c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(276);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_BarChartHorizontal2_vue_vue_type_style_index_0_id_0f2a9f2c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_BarChartHorizontal2_vue_vue_type_style_index_0_id_0f2a9f2c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_BarChartHorizontal2_vue_vue_type_style_index_0_id_0f2a9f2c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_BarChartHorizontal2_vue_vue_type_style_index_0_id_0f2a9f2c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
@@ -6003,7 +6003,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(4);
 var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, ".v-card__subtitle[data-v-0962f332]{font-size:.9em;padding:0 0 0 40px;color:#f0f8ff}.level[data-v-0962f332]{width:100%!important}", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, ".v-card__subtitle[data-v-0f2a9f2c]{font-size:.9em;padding:0 0 0 40px;color:#f0f8ff}.level[data-v-0f2a9f2c]{width:100%!important}", ""]);
 // Exports
 module.exports = ___CSS_LOADER_EXPORT___;
 
@@ -6067,7 +6067,7 @@ if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
 var add = __webpack_require__(5).default
 module.exports.__inject__ = function (context) {
-  add("7ebf3999", content, true, context)
+  add("1d6aba67", content, true, context)
 };
 
 /***/ }),
@@ -6338,12 +6338,12 @@ installComponents_default()(component, {VCardSubtitle: VCard["b" /* VCardSubtitl
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/BarChartHorizontal2.vue?vue&type=template&id=0962f332&scoped=true&v-show=%24vuetify.breakpoint.lgAndUp&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"level"},[_c('v-card-subtitle',{staticClass:"sidebar rounded-lg pt-3"},[_vm._v("\n    CUMULTIVE ENERGY IN A YEAR\n  ")]),_vm._ssrNode(" <div"+(_vm._ssrAttr("id",_vm.id))+(_vm._ssrAttr("data",_vm.data))+" style=\"width: 100%; height: 100%; height: 33vh\" data-v-0962f332></div>")],2)}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/BarChartHorizontal2.vue?vue&type=template&id=0f2a9f2c&scoped=true&v-show=%24vuetify.breakpoint.lgAndUp&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"level"},[_c('v-card-subtitle',{staticClass:"sidebar rounded-lg pt-3"},[_vm._v("\n    CUMULTIVE ENERGY IN A YEAR\n  ")]),_vm._ssrNode(" <div"+(_vm._ssrAttr("id",_vm.id))+(_vm._ssrAttr("data",_vm.data))+" style=\"width: 100%; height: 100%; height: 33vh\" data-v-0f2a9f2c></div>")],2)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./components/BarChartHorizontal2.vue?vue&type=template&id=0962f332&scoped=true&v-show=%24vuetify.breakpoint.lgAndUp&
+// CONCATENATED MODULE: ./components/BarChartHorizontal2.vue?vue&type=template&id=0f2a9f2c&scoped=true&v-show=%24vuetify.breakpoint.lgAndUp&
 
 // EXTERNAL MODULE: external "vuex"
 var external_vuex_ = __webpack_require__(17);
@@ -6451,7 +6451,7 @@ let myChart;
       this.$axios // .$get(`${this.url}/api/total/weekday`, {})
       // .$get("http://104.248.158.194/api/total/weekday", {})
       // .$get("http://68.183.189.84:5000/api/total/weekday", {})
-      .$get("https://debug2.qwazx.one:5000/api/total/weekday", {}).then(response => {
+      .$get("https://debug2.qwazx.one/api/total/weekday", {}).then(response => {
         console.log(response);
         this.dataWeek1 = response.dataWeek1;
         this.dataWeek2 = response.dataWeek2;
@@ -6576,7 +6576,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   staticRenderFns,
   false,
   injectStyles,
-  "0962f332",
+  "0f2a9f2c",
   "b22b94ac"
   
 )
@@ -6925,9 +6925,9 @@ module.exports = ___CSS_LOADER_EXPORT___;
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_building_vue_vue_type_style_index_1_id_3cd7202b_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(342);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_building_vue_vue_type_style_index_1_id_3cd7202b_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_building_vue_vue_type_style_index_1_id_3cd7202b_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_building_vue_vue_type_style_index_1_id_3cd7202b_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_building_vue_vue_type_style_index_1_id_3cd7202b_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_building_vue_vue_type_style_index_1_id_3741fb39_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(342);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_building_vue_vue_type_style_index_1_id_3741fb39_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_building_vue_vue_type_style_index_1_id_3741fb39_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_building_vue_vue_type_style_index_1_id_3741fb39_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_building_vue_vue_type_style_index_1_id_3741fb39_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
@@ -6939,7 +6939,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(4);
 var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, ".left[data-v-3cd7202b]{width:22vw;height:calc(100vh - 90px)!important;padding-left:1vw;padding-right:1vw;margin-top:3vh;position:relative;flex-direction:column}.left[data-v-3cd7202b],.right[data-v-3cd7202b]{display:flex;justify-content:center;align-items:center}.right[data-v-3cd7202b]{width:78vw;height:calc(100vh - 50px)!important;padding:1vw}.card[data-v-3cd7202b]:hover{cursor:pointer}.button-container[data-v-3cd7202b]{display:flex;justify-content:space-around;align-items:center;width:100%}.map-con[data-v-3cd7202b]{width:100%;height:100%}", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, ".left[data-v-3741fb39]{width:22vw;height:calc(100vh - 90px)!important;padding-left:1vw;padding-right:1vw;margin-top:3vh;position:relative;flex-direction:column}.left[data-v-3741fb39],.right[data-v-3741fb39]{display:flex;justify-content:center;align-items:center}.right[data-v-3741fb39]{width:78vw;height:calc(100vh - 50px)!important;padding:1vw}.card[data-v-3741fb39]:hover{cursor:pointer}.button-container[data-v-3741fb39]{display:flex;justify-content:space-around;align-items:center;width:100%}.map-con[data-v-3741fb39]{width:100%;height:100%}", ""]);
 // Exports
 module.exports = ___CSS_LOADER_EXPORT___;
 
@@ -7093,8 +7093,8 @@ module.exports = ___CSS_LOADER_EXPORT___;
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/building.vue?vue&type=template&id=3cd7202b&scoped=true&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticStyle:{"display":"flex"}},[_vm._ssrNode("<div class=\"left\" data-v-3cd7202b>","</div>",[_vm._l((_vm.buildingDetails),function(detail,index){return _vm._ssrNode("<div class=\"flex\" data-v-3cd7202b>","</div>",[_c('v-card',{staticClass:"elevation-5 rounded-lg card",staticStyle:{"height":"13vh","width":"100vw","margin-bottom":"3vh","display":"flex","background":"rgba(0, 0, 0, 0.4)"},attrs:{"id":index},on:{"click":_vm.editDetails}},[_c('div',{staticStyle:{"width":"35%","display":"flex","justify-content":"center","align-items":"center"}},[_c('img',{attrs:{"src":detail.image,"width":"70%"}})]),_vm._v(" "),_c('div',{staticStyle:{"width":"65%","display":"flex","flex-direction":"column","align-items":"flex-end","font-size":"1em","text-transform":"uppercase"}},[_c('v-card-subtitle',{staticStyle:{"font-size":"1em","text-transform":"uppercase","text-overflow":"ellipsis","overflow":"hidden","width":"100%","white-space":"nowrap"}},[_vm._v("\n            "+_vm._s(detail.desc)+"\n          ")]),_vm._v(" "),_c('v-card-subtitle',{staticStyle:{"font-size":"1.2em","text-transform":"uppercase","text-overflow":"ellipsis","overflow":"hidden","width":"100%","white-space":"nowrap"}},[_vm._v("\n            "+_vm._s(detail.data)+"\n          ")])],1)])],1)}),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"button-container\" data-v-3cd7202b>","</div>",[_c('v-btn',{staticClass:"neon",staticStyle:{"width":"40%","height":"7vh","font-size":"0.7em","display":"flex","justify-content":"center","text-align":"center"},attrs:{"to":"/"}},[_vm._v("\n        Back\n      ")]),_vm._ssrNode(" "),_c('v-btn',{staticClass:"neon",staticStyle:{"width":"40%","height":"7vh","font-size":"0.7em","display":"flex","justify-content":"center","text-align":"center"},on:{"click":function($event){_vm.details = !_vm.details}}},[_vm._v("\n        "+_vm._s(_vm.details ? "Details" : "Trends")+"\n      ")])],2)],2),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"right\" data-v-3cd7202b>","</div>",[_c('transition',{attrs:{"name":"fade","mode":"out-in"}},[(_vm.details)?_c('div',{key:"first",staticClass:"map-con border"},[_c('v-card-title',[_vm._v("TRENDS")]),_vm._v(" "),_c('v-row',{staticClass:"data-box",staticStyle:{"padding-bottom":"5px","padding-left":"1vw","padding-right":"1vw"}},[_c('v-col',{staticClass:"col-sm-6",attrs:{"cols":"12"}},[_c('v-card',{staticStyle:{"background":"rgba(0, 0, 0, 0.2)"}},[_c('SingleLineChart',{attrs:{"title":"ENERGY USAGE","data":_vm.energy,"yAxis":"KWH","max":_vm.energyMax,"min":_vm.energyMin,"avg":_vm.energyAvg,"time":_vm.energyYear,"id":"energy"}})],1)],1),_vm._v(" "),_c('v-col',{staticClass:"col-sm-6",attrs:{"cols":"12"}},[_c('v-card',{staticStyle:{"background":"rgba(0, 0, 0, 0.2)"}},[_c('SingleLineChart',{attrs:{"title":"BUILDING ENERGY INDEX (BEI)","data":_vm.bei,"yAxis":"KWH/sq m","max":_vm.energyMax,"min":_vm.energyMin,"avg":_vm.energyAvg,"time":_vm.year,"id":"bei"}})],1)],1),_vm._v(" "),_c('v-col',{staticClass:"col-sm-6",attrs:{"cols":"12"}},[_c('v-card',{staticStyle:{"background":"rgba(0, 0, 0, 0.2)"}},[_c('SingleLineChart',{attrs:{"title":"ENERGY EFFICIENCY INDEX (EEI)","data":_vm.eei,"yAxis":"KWH/occupant","max":_vm.energyMax,"min":_vm.energyMin,"avg":_vm.energyAvg,"time":_vm.year,"id":"eei"}})],1)],1),_vm._v(" "),_c('v-col',{staticClass:"col-sm-6",attrs:{"cols":"12"}},[_c('v-card',{staticStyle:{"background":"rgba(0, 0, 0, 0.2)"}},[_c('SingleLineChart',{attrs:{"title":"CARBON EMISSION INTENSITY (CEI)","data":_vm.cei,"yAxis":"tcO2e/sq m","max":_vm.energyMax,"min":_vm.energyMin,"avg":_vm.energyAvg,"time":_vm.year,"id":"cei"}})],1)],1)],1)],1):_c('div',{key:"second",staticClass:"map-con border"},[_c('v-select',{staticStyle:{"position":"absolute","right":"4vw","top":"6vh","width":"100px"},attrs:{"items":_vm.items2,"label":"Year","solo":""},on:{"input":_vm.changedLabel},model:{value:(_vm.selected),callback:function ($$v) {_vm.selected=$$v},expression:"selected"}}),_vm._v(" "),_c('v-card-title',[_vm._v("DETAILS")]),_vm._v(" "),_c('v-row',{staticClass:"data-box",staticStyle:{"padding-bottom":"5px","padding-left":"1vw","padding-right":"1vw","margin-top":"2vh"}},[_c('v-col',{staticClass:"col-sm-6",attrs:{"cols":"12"}},[_c('v-card',{staticStyle:{"background":"rgba(0, 0, 0, 0.2)","height":"37vh"}},[_c('v-card-title',{staticClass:"mb-4"},[_vm._v(" Summary")]),_vm._v(" "),_c('v-card-subtitle',[_vm._v("\n                Minimum Energy Usage : "+_vm._s(_vm.ecMonthlyMin)+" KWH, ("+_vm._s(_vm.ecMonthlyMinMonth)+")")]),_vm._v(" "),_c('v-card-subtitle',[_vm._v("\n                Maximum Energy Usage : "+_vm._s(_vm.ecMonthlyMax)+" KWH, ("+_vm._s(_vm.ecMonthlyMaxMonth)+")")]),_vm._v(" "),_c('v-card-subtitle',[_vm._v("\n                Average Energy Usage : "+_vm._s(_vm.ecMonthlyAvg)+" KWH")]),_vm._v(" "),_c('v-card-subtitle',[_vm._v("\n                Total Energy Usage Latest Month : "+_vm._s(_vm.ecMonthlyCurrent)+" KWH,\n                ("+_vm._s(_vm.ecMonthlyCurrentMonth)+")\n              ")])],1)],1),_vm._v(" "),_c('v-col',{staticClass:"col-sm-6",attrs:{"cols":"12"}},[_c('v-card',{staticStyle:{"background":"rgba(0, 0, 0, 0.2)"}},[_c('SingleLineChart2',{attrs:{"title":"ENERGY USAGE","data":_vm.ecMonthly,"yAxis":"KWH","max":_vm.energyMax,"min":_vm.energyMin,"avg":_vm.energyAvg,"time":_vm.monthMonthly,"id":"energyUsage"}})],1)],1),_vm._v(" "),_c('v-col',{staticClass:"col-sm-6",attrs:{"cols":"12"}},[_c('v-card',{staticStyle:{"background":"rgba(0, 0, 0, 0.2)"}},[_c('BarChartHorizontal2',{attrs:{"id":"bar-chart2","data":_vm.energyTotalYear,"yAxis":"10","max":_vm.energyMax,"min":_vm.energyMin,"avg":_vm.energyAvg,"time":_vm.yearTotalYear}})],1)],1),_vm._v(" "),_c('v-col',{staticClass:"col-sm-6",attrs:{"cols":"12"}},[_c('v-card',{staticStyle:{"background":"rgba(0, 0, 0, 0.2)"}},[_c('MultipleLineChart3',{attrs:{"title":"COMPARISON WITH TOTAL AVERAGE OF OTHER BUILDINGS","data":"10","yAxis":"KWH","name":_vm.loggedInUser.building_id,"max":_vm.ecall,"min":_vm.ec,"time":_vm.ecMonth,"id":"ec"}})],1)],1)],1)],1)])],1),_vm._ssrNode(" "),_c('v-row',{attrs:{"justify":"center"}},[_c('v-dialog',{attrs:{"persistent":"","max-width":"40%"},model:{value:(_vm.dialog),callback:function ($$v) {_vm.dialog=$$v},expression:"dialog"}},[_c('v-card',[_c('v-card-title',{staticClass:"text-h5"},[_vm._v("\n          Update building details?\n        ")]),_vm._v(" "),[_c('validation-observer',{ref:"observer",scopedSlots:_vm._u([{key:"default",fn:function(ref){
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/building.vue?vue&type=template&id=3741fb39&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticStyle:{"display":"flex"}},[_vm._ssrNode("<div class=\"left\" data-v-3741fb39>","</div>",[_vm._l((_vm.buildingDetails),function(detail,index){return _vm._ssrNode("<div class=\"flex\" data-v-3741fb39>","</div>",[_c('v-card',{staticClass:"elevation-5 rounded-lg card",staticStyle:{"height":"13vh","width":"100vw","margin-bottom":"3vh","display":"flex","background":"rgba(0, 0, 0, 0.4)"},attrs:{"id":index},on:{"click":_vm.editDetails}},[_c('div',{staticStyle:{"width":"35%","display":"flex","justify-content":"center","align-items":"center"}},[_c('img',{attrs:{"src":detail.image,"width":"70%"}})]),_vm._v(" "),_c('div',{staticStyle:{"width":"65%","display":"flex","flex-direction":"column","align-items":"flex-end","font-size":"1em","text-transform":"uppercase"}},[_c('v-card-subtitle',{staticStyle:{"font-size":"1em","text-transform":"uppercase","text-overflow":"ellipsis","overflow":"hidden","width":"100%","white-space":"nowrap"}},[_vm._v("\n            "+_vm._s(detail.desc)+"\n          ")]),_vm._v(" "),_c('v-card-subtitle',{staticStyle:{"font-size":"1.2em","text-transform":"uppercase","text-overflow":"ellipsis","overflow":"hidden","width":"100%","white-space":"nowrap"}},[_vm._v("\n            "+_vm._s(detail.data)+"\n          ")])],1)])],1)}),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"button-container\" data-v-3741fb39>","</div>",[_c('v-btn',{staticClass:"neon",staticStyle:{"width":"40%","height":"7vh","font-size":"0.7em","display":"flex","justify-content":"center","text-align":"center"},attrs:{"to":"/"}},[_vm._v("\n        Back\n      ")]),_vm._ssrNode(" "),_c('v-btn',{staticClass:"neon",staticStyle:{"width":"40%","height":"7vh","font-size":"0.7em","display":"flex","justify-content":"center","text-align":"center"},on:{"click":function($event){_vm.details = !_vm.details}}},[_vm._v("\n        "+_vm._s(_vm.details ? "Details" : "Trends")+"\n      ")])],2)],2),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"right\" data-v-3741fb39>","</div>",[_c('transition',{attrs:{"name":"fade","mode":"out-in"}},[(_vm.details)?_c('div',{key:"first",staticClass:"map-con border"},[_c('v-card-title',[_vm._v("TRENDS")]),_vm._v(" "),_c('v-row',{staticClass:"data-box",staticStyle:{"padding-bottom":"5px","padding-left":"1vw","padding-right":"1vw"}},[_c('v-col',{staticClass:"col-sm-6",attrs:{"cols":"12"}},[_c('v-card',{staticStyle:{"background":"rgba(0, 0, 0, 0.2)"}},[_c('SingleLineChart',{attrs:{"title":"ENERGY USAGE","data":_vm.energy,"yAxis":"KWH","max":_vm.energyMax,"min":_vm.energyMin,"avg":_vm.energyAvg,"time":_vm.energyYear,"id":"energy"}})],1)],1),_vm._v(" "),_c('v-col',{staticClass:"col-sm-6",attrs:{"cols":"12"}},[_c('v-card',{staticStyle:{"background":"rgba(0, 0, 0, 0.2)"}},[_c('SingleLineChart',{attrs:{"title":"BUILDING ENERGY INDEX (BEI)","data":_vm.bei,"yAxis":"KWH/sq m","max":_vm.energyMax,"min":_vm.energyMin,"avg":_vm.energyAvg,"time":_vm.year,"id":"bei"}})],1)],1),_vm._v(" "),_c('v-col',{staticClass:"col-sm-6",attrs:{"cols":"12"}},[_c('v-card',{staticStyle:{"background":"rgba(0, 0, 0, 0.2)"}},[_c('SingleLineChart',{attrs:{"title":"ENERGY EFFICIENCY INDEX (EEI)","data":_vm.eei,"yAxis":"KWH/occupant","max":_vm.energyMax,"min":_vm.energyMin,"avg":_vm.energyAvg,"time":_vm.year,"id":"eei"}})],1)],1),_vm._v(" "),_c('v-col',{staticClass:"col-sm-6",attrs:{"cols":"12"}},[_c('v-card',{staticStyle:{"background":"rgba(0, 0, 0, 0.2)"}},[_c('SingleLineChart',{attrs:{"title":"CARBON EMISSION INTENSITY (CEI)","data":_vm.cei,"yAxis":"tcO2e/sq m","max":_vm.energyMax,"min":_vm.energyMin,"avg":_vm.energyAvg,"time":_vm.year,"id":"cei"}})],1)],1)],1)],1):_c('div',{key:"second",staticClass:"map-con border"},[_c('v-select',{staticStyle:{"position":"absolute","right":"4vw","top":"6vh","width":"100px"},attrs:{"items":_vm.items2,"label":"Year","solo":""},on:{"input":_vm.changedLabel},model:{value:(_vm.selected),callback:function ($$v) {_vm.selected=$$v},expression:"selected"}}),_vm._v(" "),_c('v-card-title',[_vm._v("DETAILS")]),_vm._v(" "),_c('v-row',{staticClass:"data-box",staticStyle:{"padding-bottom":"5px","padding-left":"1vw","padding-right":"1vw","margin-top":"2vh"}},[_c('v-col',{staticClass:"col-sm-6",attrs:{"cols":"12"}},[_c('v-card',{staticStyle:{"background":"rgba(0, 0, 0, 0.2)","height":"37vh"}},[_c('v-card-title',{staticClass:"mb-4"},[_vm._v(" Summary")]),_vm._v(" "),_c('v-card-subtitle',[_vm._v("\n                Minimum Energy Usage : "+_vm._s(_vm.ecMonthlyMin)+" KWH, ("+_vm._s(_vm.ecMonthlyMinMonth)+")")]),_vm._v(" "),_c('v-card-subtitle',[_vm._v("\n                Maximum Energy Usage : "+_vm._s(_vm.ecMonthlyMax)+" KWH, ("+_vm._s(_vm.ecMonthlyMaxMonth)+")")]),_vm._v(" "),_c('v-card-subtitle',[_vm._v("\n                Average Energy Usage : "+_vm._s(_vm.ecMonthlyAvg)+" KWH")]),_vm._v(" "),_c('v-card-subtitle',[_vm._v("\n                Total Energy Usage Latest Month : "+_vm._s(_vm.ecMonthlyCurrent)+" KWH,\n                ("+_vm._s(_vm.ecMonthlyCurrentMonth)+")\n              ")])],1)],1),_vm._v(" "),_c('v-col',{staticClass:"col-sm-6",attrs:{"cols":"12"}},[_c('v-card',{staticStyle:{"background":"rgba(0, 0, 0, 0.2)"}},[_c('SingleLineChart2',{attrs:{"title":"ENERGY USAGE","data":_vm.ecMonthly,"yAxis":"KWH","max":_vm.energyMax,"min":_vm.energyMin,"avg":_vm.energyAvg,"time":_vm.monthMonthly,"id":"energyUsage"}})],1)],1),_vm._v(" "),_c('v-col',{staticClass:"col-sm-6",attrs:{"cols":"12"}},[_c('v-card',{staticStyle:{"background":"rgba(0, 0, 0, 0.2)"}},[_c('BarChartHorizontal2',{attrs:{"id":"bar-chart2","data":_vm.energyTotalYear,"yAxis":"10","max":_vm.energyMax,"min":_vm.energyMin,"avg":_vm.energyAvg,"time":_vm.yearTotalYear}})],1)],1),_vm._v(" "),_c('v-col',{staticClass:"col-sm-6",attrs:{"cols":"12"}},[_c('v-card',{staticStyle:{"background":"rgba(0, 0, 0, 0.2)"}},[_c('MultipleLineChart3',{attrs:{"title":"COMPARISON WITH TOTAL AVERAGE OF OTHER BUILDINGS","data":"10","yAxis":"KWH","name":_vm.loggedInUser.building_id,"max":_vm.ecall,"min":_vm.ec,"time":_vm.ecMonth,"id":"ec"}})],1)],1)],1)],1)])],1),_vm._ssrNode(" "),_c('v-row',{attrs:{"justify":"center"}},[_c('v-dialog',{attrs:{"persistent":"","max-width":"40%"},model:{value:(_vm.dialog),callback:function ($$v) {_vm.dialog=$$v},expression:"dialog"}},[_c('v-card',[_c('v-card-title',{staticClass:"text-h5"},[_vm._v("\n          Update building details?\n        ")]),_vm._v(" "),[_c('validation-observer',{ref:"observer",scopedSlots:_vm._u([{key:"default",fn:function(ref){
 var invalid = ref.invalid;
 return [_c('form',{staticClass:"pb-4",staticStyle:{"padding-left":"2vw","padding-right":"2vw"},on:{"submit":function($event){$event.preventDefault();return _vm.submit.apply(null, arguments)}}},[_c('validation-provider',{attrs:{"name":"Owner","rules":"required"},scopedSlots:_vm._u([{key:"default",fn:function(ref){
 var errors = ref.errors;
@@ -7127,7 +7127,7 @@ return [_c('v-text-field',{attrs:{"error-messages":errors,"label":"Energy Usage"
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./pages/building.vue?vue&type=template&id=3cd7202b&scoped=true&
+// CONCATENATED MODULE: ./pages/building.vue?vue&type=template&id=3741fb39&scoped=true&
 
 // EXTERNAL MODULE: external "vuex"
 var external_vuex_ = __webpack_require__(17);
@@ -7698,7 +7698,7 @@ Object(external_vee_validate_["extend"])("required", { ...rules["a" /* required 
       this.dialog = true;
     },
     getYear: function (id) {
-      this.$axios.$get(`https://debug2.qwazx.one:5000/api/data/building/year`, {
+      this.$axios.$get(`https://debug2.qwazx.one/api/data/building/year`, {
         params: {
           building_id: id
         }
@@ -7721,7 +7721,7 @@ Object(external_vee_validate_["extend"])("required", { ...rules["a" /* required 
       });
     },
     getDetails: function (id) {
-      this.$axios.$get(`https://debug2.qwazx.one:5000/api/data/building/details`, {
+      this.$axios.$get(`https://debug2.qwazx.one/api/data/building/details`, {
         params: {
           building_id: id
         }
@@ -7747,7 +7747,7 @@ Object(external_vee_validate_["extend"])("required", { ...rules["a" /* required 
       });
     },
     updateDetail: function () {
-      this.$axios.$post(`https://debug2.qwazx.one:5000/api/data/building/details`, null, {
+      this.$axios.$post(`https://debug2.qwazx.one/api/data/building/details`, null, {
         params: {
           building_id: this.loggedInUser.building_id,
           // nooffloor: this.nooffloor,
@@ -7756,7 +7756,7 @@ Object(external_vee_validate_["extend"])("required", { ...rules["a" /* required 
           carbonemissionintensity: this.carbonemissionintensity
         }
       }) // .$get("http://104.248.158.194/api/total/latest", {})
-      // .$get("https://debug2.qwazx.one:5000/api/total/latest", {})
+      // .$get("https://debug2.qwazx.one/api/total/latest", {})
       .then(response => {
         console.log(response); // this.getDetails(this.loggedInUser.userId);
 
@@ -7766,13 +7766,13 @@ Object(external_vee_validate_["extend"])("required", { ...rules["a" /* required 
       });
     },
     updateOwner: function () {
-      this.$axios.$put(`https://debug2.qwazx.one:5000/api/data/building/owner`, {
+      this.$axios.$put(`https://debug2.qwazx.one/api/data/building/owner`, {
         params: {
           id: this.loggedInUser.userId,
           owner: this.owner
         }
       }) // .$get("http://104.248.158.194/api/total/latest", {})
-      // .$get("https://debug2.qwazx.one:5000/api/total/latest", {})
+      // .$get("https://debug2.qwazx.one/api/total/latest", {})
       .then(response => {
         console.log(response);
         this.updateDetail();
@@ -7783,7 +7783,7 @@ Object(external_vee_validate_["extend"])("required", { ...rules["a" /* required 
       });
     },
     getDataYearly: function (id, year) {
-      this.$axios.$get(`https://debug2.qwazx.one:5000/api/data/yearly/building`, {
+      this.$axios.$get(`https://debug2.qwazx.one/api/data/yearly/building`, {
         params: {
           building_id: id,
           year: year
@@ -7812,7 +7812,7 @@ Object(external_vee_validate_["extend"])("required", { ...rules["a" /* required 
       });
     },
     updateData: function () {
-      this.$axios.$post(`https://debug2.qwazx.one:5000/api/data/building/data`, null, {
+      this.$axios.$post(`https://debug2.qwazx.one/api/data/building/data`, null, {
         params: {
           building_id: this.loggedInUser.userId,
           floor: this.select,
@@ -7828,7 +7828,7 @@ Object(external_vee_validate_["extend"])("required", { ...rules["a" /* required 
           carbon_emission_intensity: this.buildingDetails[4].data
         }
       }) // .$get("http://104.248.158.194/api/total/latest", {})
-      // .$get("https://debug2.qwazx.one:5000/api/total/latest", {})
+      // .$get("https://debug2.qwazx.one/api/total/latest", {})
       .then(response => {
         console.log(response); // this.updateDetail();
         // this.dialog = false;
@@ -7877,7 +7877,7 @@ Object(external_vee_validate_["extend"])("required", { ...rules["a" /* required 
     },
 
     getEnergy: function (id) {
-      this.$axios.$get(`https://debug2.qwazx.one:5000/api/data/building/energy`, {
+      this.$axios.$get(`https://debug2.qwazx.one/api/data/building/energy`, {
         params: {
           building_id: id
         }
@@ -7913,7 +7913,7 @@ Object(external_vee_validate_["extend"])("required", { ...rules["a" /* required 
       });
     },
     getEnergy2: function (id) {
-      this.$axios.$get(`https://debug2.qwazx.one:5000/api/data/building/energy`, {
+      this.$axios.$get(`https://debug2.qwazx.one/api/data/building/energy`, {
         params: {
           building_id: id
         }
@@ -7942,7 +7942,7 @@ Object(external_vee_validate_["extend"])("required", { ...rules["a" /* required 
       });
     },
     getEnergyMonth: function (id, year) {
-      this.$axios.$get(`https://debug2.qwazx.one:5000/api/data/building/energy/month`, {
+      this.$axios.$get(`https://debug2.qwazx.one/api/data/building/energy/month`, {
         params: {
           building_id: id,
           year
@@ -7974,7 +7974,7 @@ Object(external_vee_validate_["extend"])("required", { ...rules["a" /* required 
       });
     },
     getEnergyAll: function (id, category, year) {
-      this.$axios.$get(`https://debug2.qwazx.one:5000/api/data/building/energy/all`, {
+      this.$axios.$get(`https://debug2.qwazx.one/api/data/building/energy/all`, {
         params: {
           building_id: id,
           category: category,
@@ -7997,7 +7997,7 @@ Object(external_vee_validate_["extend"])("required", { ...rules["a" /* required 
       });
     },
     getBei: function (id) {
-      this.$axios.$get(`https://debug2.qwazx.one:5000/api/data/building/bei`, {
+      this.$axios.$get(`https://debug2.qwazx.one/api/data/building/bei`, {
         params: {
           building_id: id
         }
@@ -10338,7 +10338,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   staticRenderFns,
   false,
   injectStyles,
-  "3cd7202b",
+  "3741fb39",
   "61244c4e"
   
 )

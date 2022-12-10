@@ -103,7 +103,7 @@ export default {
         // .$get(`${this.url}/api/total/weekday`, {})
         // .$get("http://104.248.158.194/api/total/weekday", {})
         // .$get("http://68.183.189.84:5000/api/total/weekday", {})
-        .$get("https://debug2.qwazx.one:5000/api/total/weekday", {})
+        .$get("https://debug2.qwazx.one/api/total/weekday", {})
         .then((response) => {
           console.log(response);
           this.dataWeek1 = response.dataWeek1;

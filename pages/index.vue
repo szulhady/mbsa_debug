@@ -123,7 +123,7 @@ export default {
     },
     getData: function () {
       this.$axios
-        .$get("https://debug2.qwazx.one:5000/api/total", {})
+        .$get("https://debug2.qwazx.one/api/total", {})
         // .$get(`${this.url}/api/total`, {})
         // .$get("http://104.248.158.194/api/total", {})
         .then((response) => {
