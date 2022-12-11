@@ -1,6 +1,6 @@
 export const state = () => ({
   activeUser: 0,
-  url: "https://debug2.qwazx.one",
+  url: "https://soap.txio.live",
   locations: [
     {
       data: "",

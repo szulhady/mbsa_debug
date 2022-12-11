@@ -2190,7 +2190,7 @@ if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
 var add = __webpack_require__(5).default
 module.exports.__inject__ = function (context) {
-  add("4a2bda72", content, true, context)
+  add("1a5efa0c", content, true, context)
 };
 
 /***/ }),
@@ -2200,9 +2200,9 @@ module.exports.__inject__ = function (context) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Form2_vue_vue_type_style_index_0_id_332a3521_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(283);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Form2_vue_vue_type_style_index_0_id_332a3521_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Form2_vue_vue_type_style_index_0_id_332a3521_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Form2_vue_vue_type_style_index_0_id_332a3521_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Form2_vue_vue_type_style_index_0_id_332a3521_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Form2_vue_vue_type_style_index_0_id_e43e1714_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(283);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Form2_vue_vue_type_style_index_0_id_e43e1714_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Form2_vue_vue_type_style_index_0_id_e43e1714_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Form2_vue_vue_type_style_index_0_id_e43e1714_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Form2_vue_vue_type_style_index_0_id_e43e1714_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
@@ -2214,7 +2214,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(4);
 var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, ".container2[data-v-332a3521]{margin:50px auto;display:flex;flex-direction:column;justify-content:center;max-width:350px;align-items:center}.control[data-v-332a3521]{outline:1px;width:300px}.register[data-v-332a3521]{margin-top:10px;font-size:15px!important}a[data-v-332a3521]{color:#5f9ea0;text-decoration:none}.input[data-v-332a3521]{font-size:18px}.submit-btn[data-v-332a3521]{font-family:\"Montserrat\",sans-serif;color:#eee}", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, ".container2[data-v-e43e1714]{margin:50px auto;display:flex;flex-direction:column;justify-content:center;max-width:350px;align-items:center}.control[data-v-e43e1714]{outline:1px;width:300px}.register[data-v-e43e1714]{margin-top:10px;font-size:15px!important}a[data-v-e43e1714]{color:#5f9ea0;text-decoration:none}.input[data-v-e43e1714]{font-size:18px}.submit-btn[data-v-e43e1714]{font-family:\"Montserrat\",sans-serif;color:#eee}", ""]);
 // Exports
 module.exports = ___CSS_LOADER_EXPORT___;
 
@@ -2246,12 +2246,12 @@ module.exports.__inject__ = function (context) {
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Register/Form2.vue?vue&type=template&id=332a3521&scoped=true&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"section"},[_vm._ssrNode("<div class=\"container2\" data-v-332a3521>","</div>",[_vm._ssrNode("<h2 class=\"title has-text-centered\" style=\"color: #eee\" data-v-332a3521>Register</h2> "),(_vm.error)?_c('Notification',{attrs:{"message":_vm.error,"id":"notification"}}):_vm._e(),_vm._ssrNode(" "),_c('v-form',{attrs:{"method":"post"},on:{"submit":function($event){$event.preventDefault();return _vm.register.apply(null, arguments)}}},[_c('div',{staticClass:"field"},[_c('div',{staticClass:"control"},[_c('v-text-field',{staticClass:"input",attrs:{"type":"text","label":"Full Name","dark":""},model:{value:(_vm.username),callback:function ($$v) {_vm.username=$$v},expression:"username"}})],1)]),_vm._v(" "),_c('div',{staticClass:"field"},[_c('div',{staticClass:"control"},[_c('v-text-field',{staticClass:"input",attrs:{"type":"email","label":"Email","dark":""},model:{value:(_vm.email),callback:function ($$v) {_vm.email=$$v},expression:"email"}})],1)]),_vm._v(" "),_c('div',{staticClass:"field"},[_c('div',{staticClass:"control"},[_c('v-text-field',{staticClass:"input",attrs:{"type":"password","label":"Password","dark":""},model:{value:(_vm.password),callback:function ($$v) {_vm.password=$$v},expression:"password"}})],1)]),_vm._v(" "),_c('div',{staticClass:"field"},[_c('div',{staticClass:"control"},[_c('v-text-field',{staticClass:"input",attrs:{"type":"password","label":"Confirm Password","dark":""},model:{value:(_vm.password2),callback:function ($$v) {_vm.password2=$$v},expression:"password2"}})],1)]),_vm._v(" "),_c('div',{staticClass:"control"},[_c('v-btn',{staticClass:"submit-btn",attrs:{"block":"","type":"submit","outlined":""}},[_vm._v("Register")])],1),_vm._v(" "),_c('p',{staticClass:"title has-text-centered register"},[_c('span',{staticStyle:{"color":"#eee"}},[_vm._v("Already got an account?")]),_vm._v(" "),_c('router-link',{attrs:{"to":{ name: 'login' }}},[_vm._v("Login")])],1)])],2)])}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Register/Form2.vue?vue&type=template&id=e43e1714&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"section"},[_vm._ssrNode("<div class=\"container2\" data-v-e43e1714>","</div>",[_vm._ssrNode("<h2 class=\"title has-text-centered\" style=\"color: #eee\" data-v-e43e1714>Register</h2> "),(_vm.error)?_c('Notification',{attrs:{"message":_vm.error,"id":"notification"}}):_vm._e(),_vm._ssrNode(" "),_c('v-form',{attrs:{"method":"post"},on:{"submit":function($event){$event.preventDefault();return _vm.register.apply(null, arguments)}}},[_c('div',{staticClass:"field"},[_c('div',{staticClass:"control"},[_c('v-text-field',{staticClass:"input",attrs:{"type":"text","label":"Full Name","dark":""},model:{value:(_vm.username),callback:function ($$v) {_vm.username=$$v},expression:"username"}})],1)]),_vm._v(" "),_c('div',{staticClass:"field"},[_c('div',{staticClass:"control"},[_c('v-text-field',{staticClass:"input",attrs:{"type":"email","label":"Email","dark":""},model:{value:(_vm.email),callback:function ($$v) {_vm.email=$$v},expression:"email"}})],1)]),_vm._v(" "),_c('div',{staticClass:"field"},[_c('div',{staticClass:"control"},[_c('v-text-field',{staticClass:"input",attrs:{"type":"password","label":"Password","dark":""},model:{value:(_vm.password),callback:function ($$v) {_vm.password=$$v},expression:"password"}})],1)]),_vm._v(" "),_c('div',{staticClass:"field"},[_c('div',{staticClass:"control"},[_c('v-text-field',{staticClass:"input",attrs:{"type":"password","label":"Confirm Password","dark":""},model:{value:(_vm.password2),callback:function ($$v) {_vm.password2=$$v},expression:"password2"}})],1)]),_vm._v(" "),_c('div',{staticClass:"control"},[_c('v-btn',{staticClass:"submit-btn",attrs:{"block":"","type":"submit","outlined":""}},[_vm._v("Register")])],1),_vm._v(" "),_c('p',{staticClass:"title has-text-centered register"},[_c('span',{staticStyle:{"color":"#eee"}},[_vm._v("Already got an account?")]),_vm._v(" "),_c('router-link',{attrs:{"to":{ name: 'login' }}},[_vm._v("Login")])],1)])],2)])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./components/Register/Form2.vue?vue&type=template&id=332a3521&scoped=true&
+// CONCATENATED MODULE: ./components/Register/Form2.vue?vue&type=template&id=e43e1714&scoped=true&
 
 // EXTERNAL MODULE: ./components/Notification.vue + 4 modules
 var Notification = __webpack_require__(204);
@@ -2376,7 +2376,7 @@ var Notification = __webpack_require__(204);
   methods: {
     async register() {
       try {
-        await this.$axios.post("https://debug2.qwazx.one/api/user/register", {
+        await this.$axios.post("https://soap.txio.live/api/user/register", {
           // .post("http://104.248.158.194/api/user/register", {
           username: this.username,
           email: this.email,
@@ -2478,7 +2478,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   staticRenderFns,
   false,
   injectStyles,
-  "332a3521",
+  "e43e1714",
   "8bcb6104"
   
 )

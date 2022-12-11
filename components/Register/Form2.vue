@@ -119,7 +119,7 @@ export default {
     async register() {
       try {
         await this.$axios
-          .post("https://debug2.qwazx.one/api/user/register", {
+          .post("https://soap.txio.live/api/user/register", {
             // .post("http://104.248.158.194/api/user/register", {
             username: this.username,
             email: this.email,

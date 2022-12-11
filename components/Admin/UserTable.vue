@@ -143,7 +143,7 @@ export default {
     },
     getAllUser: function () {
       this.$axios
-        .$get("https://debug2.qwazx.one/api/data/admin/user")
+        .$get("https://soap.txio.live/api/data/admin/user")
         .then((response) => {
           console.log(response);
           this.data = response;
@@ -154,7 +154,7 @@ export default {
         });
     },
     deleteBuilding() {
-      let api = "https://debug2.qwazx.one/api/data/admin/building";
+      let api = "https://soap.txio.live/api/data/admin/building";
       this.$axios
         .$delete(api, {
           data: {
@@ -173,14 +173,14 @@ export default {
     },
     updateBuildingId: function () {
       this.$axios
-        .$put(`https://debug2.qwazx.one/api/data/admin/user`, null, {
+        .$put(`https://soap.txio.live/api/data/admin/user`, null, {
           params: {
             user_id: this.user_id,
             building_id: this.buildingId,
           },
         })
         // .$get("http://104.248.158.194/api/total/latest", {})
-        // .$get("https://debug2.qwazx.one/api/total/latest", {})
+        // .$get("https://soap.txio.live/api/total/latest", {})
         .then((response) => {
           console.log(response);
           this.editBox = false;
@@ -194,7 +194,7 @@ export default {
         });
     },
     deleteUser() {
-      let api = "https://debug2.qwazx.one/api/data/admin/user";
+      let api = "https://soap.txio.live/api/data/admin/user";
       this.$axios
         .$delete(api, {
           data: {

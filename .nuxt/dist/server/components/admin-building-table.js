@@ -6823,12 +6823,12 @@ function searchTableItems(items, search, headersWithCustomFilters, headersWithou
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Admin/BuildingTable.vue?vue&type=template&id=0bd0e3fd&
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Admin/BuildingTable.vue?vue&type=template&id=cbe5b39a&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('v-card-subtitle',{staticClass:"color no-padding"},[_vm._v("BUILDING REGISTERED")]),_vm._ssrNode(" "),_c('v-card',{staticClass:"elevation-12 card-border card-color"},[_c('v-data-table',{attrs:{"single-select":_vm.singleSelect,"headers":_vm.headers,"items":_vm.data,"items-per-page":3,"search":_vm.search,"item-key":"id","show-select":"","custom-filter":_vm.filter},on:{"click:row":_vm.handleClick},scopedSlots:_vm._u([{key:"top",fn:function(){return [_c('v-text-field',{staticClass:"mx-4",attrs:{"label":"Search for building"},model:{value:(_vm.search),callback:function ($$v) {_vm.search=$$v},expression:"search"}})]},proxy:true},(_vm.selected.length > 0)?{key:"footer",fn:function(){return [_c('v-btn',{staticClass:"error logout-btn mt-2 ml-5",on:{"click":function($event){_vm.box = true}}},[_vm._v("Delete")])]},proxy:true}:null],null,true),model:{value:(_vm.selected),callback:function ($$v) {_vm.selected=$$v},expression:"selected"}})],1),_vm._ssrNode(" "),_c('v-dialog',{attrs:{"persistent":"","max-width":"290"},model:{value:(_vm.box),callback:function ($$v) {_vm.box=$$v},expression:"box"}},[_c('v-card',[_c('v-card-title',[_vm._v(" Action ")]),_vm._v(" "),_c('hr',{staticClass:"hr"}),_vm._v(" "),_c('v-card-subtitle',[_vm._v("Are you sure you want to delete the building?")]),_vm._v(" "),_c('v-card-actions',[_c('v-spacer'),_vm._v(" "),_c('div',{staticClass:"btn-div"},[_c('v-btn',{staticClass:"error logout-btn",on:{"click":_vm.deleteBuilding}},[_vm._v("Delete")]),_vm._v(" "),_c('v-btn',{staticClass:"success logout-btn",on:{"click":_vm.cancel}},[_vm._v("Cancel")])],1)],1)],1)],1),_vm._ssrNode(" "),_c('v-dialog',{attrs:{"persistent":"","max-width":"290"},model:{value:(_vm.editBox),callback:function ($$v) {_vm.editBox=$$v},expression:"editBox"}},[(_vm.editBox)?_c('v-card',{attrs:{"id":"logout"}},[_c('v-card-title',[_vm._v(" Action ")]),_vm._v(" "),_c('hr',{staticClass:"hr"}),_vm._v(" "),_c('v-form',{staticStyle:{"padding-left":"2vw","padding-right":"2vw"},on:{"submit":function($event){$event.preventDefault();}}},[_c('div',{staticClass:"field"},[_c('div',{staticClass:"control"},[_c('v-text-field',{staticClass:"input",attrs:{"type":"text","label":"Building"},model:{value:(_vm.building),callback:function ($$v) {_vm.building=$$v},expression:"building"}})],1),_vm._v(" "),_c('div',{staticClass:"control"},[_c('v-text-field',{staticClass:"input",attrs:{"type":"text","label":"Owner"},model:{value:(_vm.owner),callback:function ($$v) {_vm.owner=$$v},expression:"owner"}})],1),_vm._v(" "),_c('div',{staticClass:"control"},[_c('v-text-field',{staticClass:"input",attrs:{"type":"text","label":"Category"},model:{value:(_vm.category),callback:function ($$v) {_vm.category=$$v},expression:"category"}})],1),_vm._v(" "),_c('div',{staticClass:"control"},[_c('v-text-field',{staticClass:"input",attrs:{"type":"text","label":"Latitude"},model:{value:(_vm.latitude),callback:function ($$v) {_vm.latitude=$$v},expression:"latitude"}})],1),_vm._v(" "),_c('div',{staticClass:"control"},[_c('v-text-field',{staticClass:"input",attrs:{"type":"text","label":"Longitude"},model:{value:(_vm.longitude),callback:function ($$v) {_vm.longitude=$$v},expression:"longitude"}})],1)])]),_vm._v(" "),_c('v-card-actions',[_c('v-spacer'),_vm._v(" "),_c('div',{staticClass:"btn-div"},[_c('v-btn',{staticClass:"error logout-btn",on:{"click":_vm.updateBuilding}},[_vm._v("Edit")]),_vm._v(" "),_c('v-btn',{staticClass:"success logout-btn",on:{"click":_vm.cancel}},[_vm._v("Cancel")])],1)],1)],1):_vm._e()],1)],2)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./components/Admin/BuildingTable.vue?vue&type=template&id=0bd0e3fd&
+// CONCATENATED MODULE: ./components/Admin/BuildingTable.vue?vue&type=template&id=cbe5b39a&
 
 // EXTERNAL MODULE: external "vuex"
 var external_vuex_ = __webpack_require__(17);
@@ -7031,7 +7031,7 @@ var external_vuex_ = __webpack_require__(17);
     },
 
     getAllBuilding: function () {
-      this.$axios.$get("https://debug2.qwazx.one/api/data/admin/building").then(response => {
+      this.$axios.$get("https://soap.txio.live/api/data/admin/building").then(response => {
         console.log(response);
         this.data = response; // this.setBuildingData(response);
       }).catch(error => {
@@ -7039,7 +7039,7 @@ var external_vuex_ = __webpack_require__(17);
       });
     },
     updateBuilding: function () {
-      this.$axios.$put(`https://debug2.qwazx.one/api/data/admin/building`, null, {
+      this.$axios.$put(`https://soap.txio.live/api/data/admin/building`, null, {
         params: {
           id: this.id,
           name: this.building,
@@ -7049,7 +7049,7 @@ var external_vuex_ = __webpack_require__(17);
           longitude: this.longitude
         }
       }) // .$get("http://104.248.158.194/api/total/latest", {})
-      // .$get("https://debug2.qwazx.one/api/total/latest", {})
+      // .$get("https://soap.txio.live/api/total/latest", {})
       .then(response => {
         console.log(response);
         this.editBox = false;
@@ -7061,7 +7061,7 @@ var external_vuex_ = __webpack_require__(17);
     },
 
     deleteBuilding() {
-      let api = "https://debug2.qwazx.one/api/data/admin/building";
+      let api = "https://soap.txio.live/api/data/admin/building";
       console.log(this.selected);
       this.$axios.$delete(api, {
         data: {

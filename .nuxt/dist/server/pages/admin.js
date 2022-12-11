@@ -5755,7 +5755,7 @@ if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
 var add = __webpack_require__(5).default
 module.exports.__inject__ = function (context) {
-  add("5832363c", content, true, context)
+  add("42f71592", content, true, context)
 };
 
 /***/ }),
@@ -8003,12 +8003,12 @@ function searchTableItems(items, search, headersWithCustomFilters, headersWithou
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Admin/BuildingTable.vue?vue&type=template&id=0bd0e3fd&
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Admin/BuildingTable.vue?vue&type=template&id=cbe5b39a&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('v-card-subtitle',{staticClass:"color no-padding"},[_vm._v("BUILDING REGISTERED")]),_vm._ssrNode(" "),_c('v-card',{staticClass:"elevation-12 card-border card-color"},[_c('v-data-table',{attrs:{"single-select":_vm.singleSelect,"headers":_vm.headers,"items":_vm.data,"items-per-page":3,"search":_vm.search,"item-key":"id","show-select":"","custom-filter":_vm.filter},on:{"click:row":_vm.handleClick},scopedSlots:_vm._u([{key:"top",fn:function(){return [_c('v-text-field',{staticClass:"mx-4",attrs:{"label":"Search for building"},model:{value:(_vm.search),callback:function ($$v) {_vm.search=$$v},expression:"search"}})]},proxy:true},(_vm.selected.length > 0)?{key:"footer",fn:function(){return [_c('v-btn',{staticClass:"error logout-btn mt-2 ml-5",on:{"click":function($event){_vm.box = true}}},[_vm._v("Delete")])]},proxy:true}:null],null,true),model:{value:(_vm.selected),callback:function ($$v) {_vm.selected=$$v},expression:"selected"}})],1),_vm._ssrNode(" "),_c('v-dialog',{attrs:{"persistent":"","max-width":"290"},model:{value:(_vm.box),callback:function ($$v) {_vm.box=$$v},expression:"box"}},[_c('v-card',[_c('v-card-title',[_vm._v(" Action ")]),_vm._v(" "),_c('hr',{staticClass:"hr"}),_vm._v(" "),_c('v-card-subtitle',[_vm._v("Are you sure you want to delete the building?")]),_vm._v(" "),_c('v-card-actions',[_c('v-spacer'),_vm._v(" "),_c('div',{staticClass:"btn-div"},[_c('v-btn',{staticClass:"error logout-btn",on:{"click":_vm.deleteBuilding}},[_vm._v("Delete")]),_vm._v(" "),_c('v-btn',{staticClass:"success logout-btn",on:{"click":_vm.cancel}},[_vm._v("Cancel")])],1)],1)],1)],1),_vm._ssrNode(" "),_c('v-dialog',{attrs:{"persistent":"","max-width":"290"},model:{value:(_vm.editBox),callback:function ($$v) {_vm.editBox=$$v},expression:"editBox"}},[(_vm.editBox)?_c('v-card',{attrs:{"id":"logout"}},[_c('v-card-title',[_vm._v(" Action ")]),_vm._v(" "),_c('hr',{staticClass:"hr"}),_vm._v(" "),_c('v-form',{staticStyle:{"padding-left":"2vw","padding-right":"2vw"},on:{"submit":function($event){$event.preventDefault();}}},[_c('div',{staticClass:"field"},[_c('div',{staticClass:"control"},[_c('v-text-field',{staticClass:"input",attrs:{"type":"text","label":"Building"},model:{value:(_vm.building),callback:function ($$v) {_vm.building=$$v},expression:"building"}})],1),_vm._v(" "),_c('div',{staticClass:"control"},[_c('v-text-field',{staticClass:"input",attrs:{"type":"text","label":"Owner"},model:{value:(_vm.owner),callback:function ($$v) {_vm.owner=$$v},expression:"owner"}})],1),_vm._v(" "),_c('div',{staticClass:"control"},[_c('v-text-field',{staticClass:"input",attrs:{"type":"text","label":"Category"},model:{value:(_vm.category),callback:function ($$v) {_vm.category=$$v},expression:"category"}})],1),_vm._v(" "),_c('div',{staticClass:"control"},[_c('v-text-field',{staticClass:"input",attrs:{"type":"text","label":"Latitude"},model:{value:(_vm.latitude),callback:function ($$v) {_vm.latitude=$$v},expression:"latitude"}})],1),_vm._v(" "),_c('div',{staticClass:"control"},[_c('v-text-field',{staticClass:"input",attrs:{"type":"text","label":"Longitude"},model:{value:(_vm.longitude),callback:function ($$v) {_vm.longitude=$$v},expression:"longitude"}})],1)])]),_vm._v(" "),_c('v-card-actions',[_c('v-spacer'),_vm._v(" "),_c('div',{staticClass:"btn-div"},[_c('v-btn',{staticClass:"error logout-btn",on:{"click":_vm.updateBuilding}},[_vm._v("Edit")]),_vm._v(" "),_c('v-btn',{staticClass:"success logout-btn",on:{"click":_vm.cancel}},[_vm._v("Cancel")])],1)],1)],1):_vm._e()],1)],2)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./components/Admin/BuildingTable.vue?vue&type=template&id=0bd0e3fd&
+// CONCATENATED MODULE: ./components/Admin/BuildingTable.vue?vue&type=template&id=cbe5b39a&
 
 // EXTERNAL MODULE: external "vuex"
 var external_vuex_ = __webpack_require__(17);
@@ -8211,7 +8211,7 @@ var external_vuex_ = __webpack_require__(17);
     },
 
     getAllBuilding: function () {
-      this.$axios.$get("https://debug2.qwazx.one/api/data/admin/building").then(response => {
+      this.$axios.$get("https://soap.txio.live/api/data/admin/building").then(response => {
         console.log(response);
         this.data = response; // this.setBuildingData(response);
       }).catch(error => {
@@ -8219,7 +8219,7 @@ var external_vuex_ = __webpack_require__(17);
       });
     },
     updateBuilding: function () {
-      this.$axios.$put(`https://debug2.qwazx.one/api/data/admin/building`, null, {
+      this.$axios.$put(`https://soap.txio.live/api/data/admin/building`, null, {
         params: {
           id: this.id,
           name: this.building,
@@ -8229,7 +8229,7 @@ var external_vuex_ = __webpack_require__(17);
           longitude: this.longitude
         }
       }) // .$get("http://104.248.158.194/api/total/latest", {})
-      // .$get("https://debug2.qwazx.one/api/total/latest", {})
+      // .$get("https://soap.txio.live/api/total/latest", {})
       .then(response => {
         console.log(response);
         this.editBox = false;
@@ -8241,7 +8241,7 @@ var external_vuex_ = __webpack_require__(17);
     },
 
     deleteBuilding() {
-      let api = "https://debug2.qwazx.one/api/data/admin/building";
+      let api = "https://soap.txio.live/api/data/admin/building";
       console.log(this.selected);
       this.$axios.$delete(api, {
         data: {
@@ -8353,12 +8353,12 @@ installComponents_default()(component, {VBtn: VBtn["a" /* default */],VCard: VCa
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Admin/UserTable.vue?vue&type=template&id=32d9534f&
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Admin/UserTable.vue?vue&type=template&id=255f25cc&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('v-card-subtitle',{staticClass:"color no-padding"},[_vm._v("USER REGISTERED")]),_vm._ssrNode(" "),_c('v-card',{staticClass:"elevation-12 card-border card-color"},[_c('v-data-table',{attrs:{"single-select":_vm.singleSelect,"headers":_vm.headers,"items":_vm.data,"items-per-page":3,"search":_vm.search,"item-key":"user_id","show-select":"","custom-filter":_vm.filter},on:{"click:row":_vm.handleClick},scopedSlots:_vm._u([{key:"top",fn:function(){return [_c('v-text-field',{staticClass:"mx-4",attrs:{"label":"Search for user"},model:{value:(_vm.search),callback:function ($$v) {_vm.search=$$v},expression:"search"}})]},proxy:true},(_vm.selected.length > 0)?{key:"footer",fn:function(){return [_c('v-btn',{staticClass:"error logout-btn mt-2 ml-5",on:{"click":function($event){_vm.box = true}}},[_vm._v("Delete")])]},proxy:true}:null],null,true),model:{value:(_vm.selected),callback:function ($$v) {_vm.selected=$$v},expression:"selected"}})],1),_vm._ssrNode(" "),_c('v-dialog',{attrs:{"persistent":"","max-width":"290"},model:{value:(_vm.box),callback:function ($$v) {_vm.box=$$v},expression:"box"}},[_c('v-card',[_c('v-card-title',[_vm._v(" Action ")]),_vm._v(" "),_c('hr',{staticClass:"hr"}),_vm._v(" "),_c('v-card-subtitle',[_vm._v("Are you sure you want to delete the user?")]),_vm._v(" "),_c('v-card-actions',[_c('v-spacer'),_vm._v(" "),_c('div',{staticClass:"btn-div"},[_c('v-btn',{staticClass:"error logout-btn",on:{"click":_vm.deleteUser}},[_vm._v("Delete")]),_vm._v(" "),_c('v-btn',{staticClass:"success logout-btn",on:{"click":_vm.cancel}},[_vm._v("Cancel")])],1)],1)],1)],1),_vm._ssrNode(" "),_c('v-dialog',{attrs:{"persistent":"","max-width":"290"},model:{value:(_vm.editBox),callback:function ($$v) {_vm.editBox=$$v},expression:"editBox"}},[(_vm.editBox)?_c('v-card',{attrs:{"id":"logout"}},[_c('v-card-title',[_vm._v(" Action ")]),_vm._v(" "),_c('hr',{staticClass:"hr"}),_vm._v(" "),_c('v-form',{staticStyle:{"padding-left":"2vw","padding-right":"2vw"},on:{"submit":function($event){$event.preventDefault();}}},[_c('div',{staticClass:"field"},[_c('div',{staticClass:"control"},[_c('v-text-field',{staticClass:"input",attrs:{"type":"text","label":"Building ID"},model:{value:(_vm.buildingId),callback:function ($$v) {_vm.buildingId=$$v},expression:"buildingId"}})],1)])]),_vm._v(" "),_c('v-card-actions',[_c('v-spacer'),_vm._v(" "),_c('div',{staticClass:"btn-div"},[_c('v-btn',{staticClass:"error logout-btn",on:{"click":_vm.updateBuildingId}},[_vm._v("Edit")]),_vm._v(" "),_c('v-btn',{staticClass:"success logout-btn",on:{"click":_vm.cancel}},[_vm._v("Cancel")])],1)],1)],1):_vm._e()],1)],2)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./components/Admin/UserTable.vue?vue&type=template&id=32d9534f&
+// CONCATENATED MODULE: ./components/Admin/UserTable.vue?vue&type=template&id=255f25cc&
 
 // EXTERNAL MODULE: external "vuex"
 var external_vuex_ = __webpack_require__(17);
@@ -8508,7 +8508,7 @@ var external_vuex_ = __webpack_require__(17);
     },
 
     getAllUser: function () {
-      this.$axios.$get("https://debug2.qwazx.one/api/data/admin/user").then(response => {
+      this.$axios.$get("https://soap.txio.live/api/data/admin/user").then(response => {
         console.log(response);
         this.data = response; // this.setBuildingData(response);
       }).catch(error => {
@@ -8517,7 +8517,7 @@ var external_vuex_ = __webpack_require__(17);
     },
 
     deleteBuilding() {
-      let api = "https://debug2.qwazx.one/api/data/admin/building";
+      let api = "https://soap.txio.live/api/data/admin/building";
       this.$axios.$delete(api, {
         data: {
           id: this.selected
@@ -8533,13 +8533,13 @@ var external_vuex_ = __webpack_require__(17);
     },
 
     updateBuildingId: function () {
-      this.$axios.$put(`https://debug2.qwazx.one/api/data/admin/user`, null, {
+      this.$axios.$put(`https://soap.txio.live/api/data/admin/user`, null, {
         params: {
           user_id: this.user_id,
           building_id: this.buildingId
         }
       }) // .$get("http://104.248.158.194/api/total/latest", {})
-      // .$get("https://debug2.qwazx.one/api/total/latest", {})
+      // .$get("https://soap.txio.live/api/total/latest", {})
       .then(response => {
         console.log(response);
         this.editBox = false;
@@ -8552,7 +8552,7 @@ var external_vuex_ = __webpack_require__(17);
     },
 
     deleteUser() {
-      let api = "https://debug2.qwazx.one/api/data/admin/user";
+      let api = "https://soap.txio.live/api/data/admin/user";
       this.$axios.$delete(api, {
         data: {
           user_id: this.selected
@@ -8655,9 +8655,9 @@ installComponents_default()(component, {VBtn: VBtn["a" /* default */],VCard: VCa
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_admin_vue_vue_type_style_index_0_id_7ba6f6bc_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(340);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_admin_vue_vue_type_style_index_0_id_7ba6f6bc_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_admin_vue_vue_type_style_index_0_id_7ba6f6bc_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_admin_vue_vue_type_style_index_0_id_7ba6f6bc_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_admin_vue_vue_type_style_index_0_id_7ba6f6bc_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_admin_vue_vue_type_style_index_0_id_24d06010_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(340);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_admin_vue_vue_type_style_index_0_id_24d06010_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_admin_vue_vue_type_style_index_0_id_24d06010_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_admin_vue_vue_type_style_index_0_id_24d06010_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_admin_vue_vue_type_style_index_0_id_24d06010_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
@@ -8669,7 +8669,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(4);
 var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, ".left[data-v-7ba6f6bc]{width:20vw;position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center}.left[data-v-7ba6f6bc],.right[data-v-7ba6f6bc]{height:calc(100vh - 100px)!important}.right[data-v-7ba6f6bc]{width:80vw;padding-right:3vw}", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, ".left[data-v-24d06010]{width:20vw;position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center}.left[data-v-24d06010],.right[data-v-24d06010]{height:calc(100vh - 100px)!important}.right[data-v-24d06010]{width:80vw;padding-right:3vw}", ""]);
 // Exports
 module.exports = ___CSS_LOADER_EXPORT___;
 
@@ -8683,8 +8683,8 @@ module.exports = ___CSS_LOADER_EXPORT___;
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/admin.vue?vue&type=template&id=7ba6f6bc&scoped=true&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',[_vm._ssrNode("<section style=\"display: flex\" data-v-7ba6f6bc>","</section>",[_vm._ssrNode("<section class=\"left\" data-v-7ba6f6bc>","</section>",[_c('v-btn',{staticClass:"neon3",staticStyle:{"width":"15vw","height":"7vh","font-size":"0.8em"},on:{"click":function($event){_vm.dialog = true}}},[_vm._v("Add Building")])],1),_vm._ssrNode(" "),_vm._ssrNode("<section class=\"right\" data-v-7ba6f6bc>","</section>",[_vm._ssrNode("<section style=\"height: 40vh; max-height: 40vh; min-height: 40vh\" data-v-7ba6f6bc>","</section>",[_c('BuildingTable')],1),_vm._ssrNode(" "),_vm._ssrNode("<section style=\"\\n          height: 40vh;\\n          padding-top: 8vh;\\n          max-height: 40vh;\\n          min-height: 40vh;\\n        \" data-v-7ba6f6bc>","</section>",[_c('UserTable')],1)],2)],2),_vm._ssrNode(" "),_c('v-row',{attrs:{"justify":"center"}},[_c('v-dialog',{attrs:{"persistent":"","max-width":"40%"},model:{value:(_vm.dialog),callback:function ($$v) {_vm.dialog=$$v},expression:"dialog"}},[_c('v-card',[_c('v-card-title',{staticClass:"text-h5"},[_vm._v(" Add Data ")]),_vm._v(" "),[_c('validation-observer',{ref:"observer",scopedSlots:_vm._u([{key:"default",fn:function(ref){
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/admin.vue?vue&type=template&id=24d06010&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',[_vm._ssrNode("<section style=\"display: flex\" data-v-24d06010>","</section>",[_vm._ssrNode("<section class=\"left\" data-v-24d06010>","</section>",[_c('v-btn',{staticClass:"neon3",staticStyle:{"width":"15vw","height":"7vh","font-size":"0.8em"},on:{"click":function($event){_vm.dialog = true}}},[_vm._v("Add Building")])],1),_vm._ssrNode(" "),_vm._ssrNode("<section class=\"right\" data-v-24d06010>","</section>",[_vm._ssrNode("<section style=\"height: 40vh; max-height: 40vh; min-height: 40vh\" data-v-24d06010>","</section>",[_c('BuildingTable')],1),_vm._ssrNode(" "),_vm._ssrNode("<section style=\"\\n          height: 40vh;\\n          padding-top: 8vh;\\n          max-height: 40vh;\\n          min-height: 40vh;\\n        \" data-v-24d06010>","</section>",[_c('UserTable')],1)],2)],2),_vm._ssrNode(" "),_c('v-row',{attrs:{"justify":"center"}},[_c('v-dialog',{attrs:{"persistent":"","max-width":"40%"},model:{value:(_vm.dialog),callback:function ($$v) {_vm.dialog=$$v},expression:"dialog"}},[_c('v-card',[_c('v-card-title',{staticClass:"text-h5"},[_vm._v(" Add Data ")]),_vm._v(" "),[_c('validation-observer',{ref:"observer",scopedSlots:_vm._u([{key:"default",fn:function(ref){
 var invalid = ref.invalid;
 return [_c('form',{staticClass:"pb-4",staticStyle:{"padding-left":"2vw","padding-right":"2vw"},on:{"submit":function($event){$event.preventDefault();return _vm.submit.apply(null, arguments)}}},[_c('validation-provider',{attrs:{"name":"Building ID","rules":"required"},scopedSlots:_vm._u([{key:"default",fn:function(ref){
 var errors = ref.errors;
@@ -8702,7 +8702,7 @@ return [_c('v-text-field',{attrs:{"error-messages":errors,"label":"Building Long
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./pages/admin.vue?vue&type=template&id=7ba6f6bc&scoped=true&
+// CONCATENATED MODULE: ./pages/admin.vue?vue&type=template&id=24d06010&scoped=true&
 
 // EXTERNAL MODULE: ./components/Admin/BuildingTable.vue + 4 modules
 var BuildingTable = __webpack_require__(353);
@@ -8905,7 +8905,7 @@ Object(external_vee_validate_["extend"])("required", { ...rules["a" /* required 
     },
 
     getAllBuilding: function () {
-      this.$axios.$get("https://debug2.qwazx.one/api/data/admin/building").then(response => {
+      this.$axios.$get("https://soap.txio.live/api/data/admin/building").then(response => {
         // console.log(response);
         this.setBuildingData(response);
       }).catch(error => {
@@ -8914,7 +8914,7 @@ Object(external_vee_validate_["extend"])("required", { ...rules["a" /* required 
     },
     addBuilding: function () {
       console.log(this.buildingName);
-      this.$axios.$post(`https://debug2.qwazx.one/api/data/admin/building`, null, {
+      this.$axios.$post(`https://soap.txio.live/api/data/admin/building`, null, {
         params: {
           id: this.buildingId,
           name: this.buildingName,
@@ -8988,7 +8988,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   staticRenderFns,
   false,
   injectStyles,
-  "7ba6f6bc",
+  "24d06010",
   "5dcb3afa"
   
 )

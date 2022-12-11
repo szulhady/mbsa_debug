@@ -8993,7 +8993,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getters", function() { return getters; });
 const state = () => ({
   activeUser: 0,
-  url: "https://debug2.qwazx.one",
+  url: "https://soap.txio.live",
   locations: [{
     data: "",
     ts: "",
@@ -14709,13 +14709,13 @@ const DEFAULTS = {
   $auth.registerStrategy('local', new LocalScheme($auth, {
     "endpoints": {
       "login": {
-        "url": "https://debug2.qwazx.one/api/auth/login",
+        "url": "https://soap.txio.live/api/auth/login",
         "method": "post",
         "propertyName": "token"
       },
       "logout": false,
       "user": {
-        "url": "https://debug2.qwazx.one/api/auth/me",
+        "url": "https://soap.txio.live/api/auth/me",
         "method": "GET",
         "propertyName": false
       }

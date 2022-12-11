@@ -193,7 +193,7 @@ export default {
     },
     getAllBuilding: function () {
       this.$axios
-        .$get("https://debug2.qwazx.one/api/data/admin/building")
+        .$get("https://soap.txio.live/api/data/admin/building")
         .then((response) => {
           console.log(response);
           this.data = response;
@@ -205,7 +205,7 @@ export default {
     },
     updateBuilding: function () {
       this.$axios
-        .$put(`https://debug2.qwazx.one/api/data/admin/building`, null, {
+        .$put(`https://soap.txio.live/api/data/admin/building`, null, {
           params: {
             id: this.id,
             name: this.building,
@@ -216,7 +216,7 @@ export default {
           },
         })
         // .$get("http://104.248.158.194/api/total/latest", {})
-        // .$get("https://debug2.qwazx.one/api/total/latest", {})
+        // .$get("https://soap.txio.live/api/total/latest", {})
         .then((response) => {
           console.log(response);
           this.editBox = false;
@@ -229,7 +229,7 @@ export default {
         });
     },
     deleteBuilding() {
-      let api = "https://debug2.qwazx.one/api/data/admin/building";
+      let api = "https://soap.txio.live/api/data/admin/building";
       console.log(this.selected);
       this.$axios
         .$delete(api, {

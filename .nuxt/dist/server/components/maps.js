@@ -653,7 +653,7 @@ module.exports = ___CSS_LOADER_EXPORT___;
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Maps.vue?vue&type=template&id=abcb510a&
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Maps.vue?vue&type=template&id=6f381ce0&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return (_vm.show)?_c('section',{staticStyle:{"overfloe":"hidden"}},[_c('GMap',{ref:"gMap",attrs:{"language":"en","cluster":{ options: { styles: _vm.clusterStyle } },"center":{
       lat: parseFloat(_vm.categories[0].locations[_vm.a].lat),
       lng: parseFloat(_vm.categories[0].locations[_vm.a].lng),
@@ -664,7 +664,7 @@ var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._sel
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./components/Maps.vue?vue&type=template&id=abcb510a&
+// CONCATENATED MODULE: ./components/Maps.vue?vue&type=template&id=6f381ce0&
 
 // EXTERNAL MODULE: external "vuex"
 var external_vuex_ = __webpack_require__(17);
@@ -991,7 +991,7 @@ var DetailCards = __webpack_require__(297);
       }, 1); //
     },
     getCategory: function () {
-      this.$axios.$get("https://debug2.qwazx.one/api/data/category/map", {// params: {
+      this.$axios.$get("https://soap.txio.live/api/data/category/map", {// params: {
         //   id: id,
         // },
       }).then(response => {

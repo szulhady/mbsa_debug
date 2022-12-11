@@ -398,7 +398,7 @@ export default {
     },
     getCategory: function () {
       this.$axios
-        .$get("https://debug2.qwazx.one/api/data/category/map", {
+        .$get("https://soap.txio.live/api/data/category/map", {
           // params: {
           //   id: id,
           // },

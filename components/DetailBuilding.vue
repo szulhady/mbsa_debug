@@ -92,7 +92,7 @@ export default {
       this.$axios
         // .$get("http://178.128.29.241/api/total/latestMBSA", {})
         // .$get("http://68.183.189.84:5000/api/total/latestMBSA", {})
-        .$get("https://debug2.qwazx.one/api/total/latestMBSA", {})
+        .$get("https://soap.txio.live/api/total/latestMBSA", {})
         // .$get(`${this.url}/api/total/latestMBSA`, {})
         .then((response) => {
           // console.log("haaa", response);
@@ -147,7 +147,7 @@ export default {
     //   this.$axios
     //     // .$get("http://178.128.29.241/api/total/latestMBSA", {})
     //     // .$get("http://68.183.189.84:5000/api/total/latestMBSA", {})
-    //     // .$get("https://debug2.qwazx.one/api/total/latestMBSA", {})
+    //     // .$get("https://soap.txio.live/api/total/latestMBSA", {})
     //     .$get(`${this.url}/api/total/latestMBSA`, {})
     //     .then((response) => {
     //       console.log(response);

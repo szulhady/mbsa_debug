@@ -81,7 +81,7 @@ export default {
         // .$get(`${this.url}/api/total/month`, {})
         // .$get("http://104.248.158.194/api/total/month", {})
         // .$get("http://68.183.189.84:5000/api/total/month", {})
-        .$get("https://debug2.qwazx.one/api/total/month", {})
+        .$get("https://soap.txio.live/api/total/month", {})
         .then((response) => {
           // console.log(response);
           this.month = response.month;
